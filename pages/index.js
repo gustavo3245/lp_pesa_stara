@@ -5,6 +5,7 @@ import Infos from "../sections/infos.js"
 import Agricultura from '../sections/agricultura.js'
 import Noticias from "../sections/noticias.js"
 import Indicadores from '../sections/indicadores.js'
+import Form from '../sections/form.js'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Agricultura/>
       <Noticias/>
       <Indicadores/>
+      <Form/>
     </div>
   )
 }

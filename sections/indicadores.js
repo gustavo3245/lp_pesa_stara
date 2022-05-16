@@ -35,13 +35,13 @@ export default function Indicadores () {
                 </Row>
                 <div className={css.divider}></div>
                 <div style={{marginTop: 50}} className={css.titleSection}>Indicadores Financeiros</div>
-                <Row>
+                <Row style={{marginTop: 20}}>
                     <Col></Col>
-                    <Col>
-                    <div className={css.indicadores}><b>EUR/USD</b></div>
+                    <Col className={css.indicadores}>
+                    <div ><b>EUR/USD</b></div>
                     </Col>
 
-                    <Col>
+                    <Col className={css.indicadores}>
                     <div>
                         Compra: 1,0522
                     </div>
@@ -50,7 +50,7 @@ export default function Indicadores () {
                     </div>
                     </Col>
 
-                    <Col>
+                    <Col style={{border: "none"}} className={css.indicadores}>
                     <div>
                         Máxima: 1,0522
                     </div>
