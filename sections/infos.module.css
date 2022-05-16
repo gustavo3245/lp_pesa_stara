@@ -1,0 +1,32 @@
+.background{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.row{
+    text-align: center;
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 28px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.value{
+    font-family: 'Gotham Bold';
+    font-size: 70px;
+    color: #F26E20;
+}
+
+.fonts{
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-right: 60px;
+    margin-left: 60px;
+    line-height: 40px;
+}

@@ -1,0 +1,49 @@
+.bgcolor{
+    background-color: #F26E20;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.titleSection{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 800;
+    text-align: center;
+    font-size: 25px;
+}
+
+.name{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.value{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.variacao{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.praca{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.divider{
+    height: 4px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.indicadores{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
