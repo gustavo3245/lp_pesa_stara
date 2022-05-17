@@ -54,7 +54,7 @@ export default function Indicadores () {
                     <div>
                         Máxima: 1,0522
                     </div>
-                    <div>
+                    <div id="contato">
                         Mínima: 1,0527
                     </div>
                     </Col>

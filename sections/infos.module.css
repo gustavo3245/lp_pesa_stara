@@ -15,6 +15,14 @@
     margin-top: 20px;
 }
 
+.title2{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 28px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
 .value{
     font-family: 'Gotham Bold';
     font-size: 70px;
@@ -29,4 +37,16 @@
     margin-right: 60px;
     margin-left: 60px;
     line-height: 40px;
+}
+
+@media(max-width: 600px){
+    .fonts{
+        margin: 0;
+        line-height: 25px;
+    }
+
+    .title2{
+        margin-bottom: 70px;
+        margin-top: 0;
+    }
 }

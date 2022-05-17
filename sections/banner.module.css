@@ -1,6 +1,24 @@
 .bgbanner{
     background-image: url(../public/imgs/banner.jpg);
-    height: 100vh;
+    padding-top: 300px;
+    padding-bottom: 300px;
     background-size: cover;
     border-bottom: solid 15px #F26E20;
+}
+
+.icon{
+    font-size: 80px;
+    color: #F26E20;
+}
+
+@media(max-width: 600px){
+    .bgbanner{
+        background-size: cover;
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+
+    .icon{
+        font-size: 60px;
+    }
 }

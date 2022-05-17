@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Noticias () {
     return(
-        <div className={css.bgcolor}>
+        <div id="blog" className={css.bgcolor}>
             <Container>
             <div className={css.titleSection}>Notícias</div>
                 <div className={css.divider}></div>

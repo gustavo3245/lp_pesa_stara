@@ -13,16 +13,16 @@ export default function Header (){
 </style>
             <Container className={css.header}>
                 <Row>
-                    <Col md="6">
-                    <Image src="/imgs/logo-pesastara.png" width={200} height={50} alt=""/>
+                    <Col sm="5" md="6">
+                    <Link href="/"><a><Image className={css.logo} src="/imgs/logo-pesastara.png" width={200} height={50} alt=""/></a></Link>
                     </Col>
 
-                    <Col className={css.col} md="6">
+                    <Col className={css.col} sm="7" md="6">
                     <Row>
                         <Col>
                         <div>
-                            <Link href="#"><a className={css.link}>Blog</a></Link>
-                            <Link href="#"><a className={css.link}>Contato</a></Link>
+                            <Link href="#blog"><a className={css.link}>Blog</a></Link>
+                            <Link href="#contato"><a className={css.link}>Contato</a></Link>
                         </div>
                         </Col>
                     </Row>

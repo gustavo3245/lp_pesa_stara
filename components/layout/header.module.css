@@ -18,3 +18,9 @@
 .link:hover{
     color: white;
 }
+
+@media(max-width: 600px){
+    .header{
+        margin-bottom: -100px;
+    }
+}

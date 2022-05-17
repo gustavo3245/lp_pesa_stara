@@ -1,0 +1,19 @@
+.bgcolor{
+    background-color: #F26E20;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cidade{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.info{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15px;
+    font-size: 15px;
+}
