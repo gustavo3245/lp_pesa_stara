@@ -99,5 +99,15 @@ border-radius: 50px;
 }
 
 @media(max-width: 600px){
-    
+    .titleSection{
+        font-size: 25px;
+    }
+
+    .column{
+        margin-bottom: 50px;
+    }
+
+    .empty{
+        display: none;
+    }
 }

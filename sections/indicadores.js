@@ -9,7 +9,7 @@ export default function Indicadores () {
             <Container>
                 <div className={css.titleSection}>Indicadores Agrícolas</div>
                 <Row style={{marginTop: 40}}>
-                    <Col style={{textAlign: "center"}}>
+                    <Col md="4" style={{textAlign: "center"}}>
                     <Image src="/imgs/soja.png" width={34} height={39}/>
                     <div className={css.name}>Soja</div>
                     <div className={css.value}>R$ 178,00</div>
@@ -17,7 +17,7 @@ export default function Indicadores () {
                     <div className={css.praca}>Praça: Londrina/PR (Integrada)</div>
                     </Col>
 
-                    <Col style={{textAlign: "center"}}>
+                    <Col md="4" style={{textAlign: "center"}}>
                     <Image src="/imgs/trigo.png" width={34} height={39}/>
                     <div className={css.name}>Trigo</div>
                     <div className={css.value}>R$ 96,00</div>
@@ -25,7 +25,7 @@ export default function Indicadores () {
                     <div className={css.praca}>Praça: Londrina/PR (Integrada)</div>
                     </Col>
 
-                    <Col style={{textAlign: "center"}}>
+                    <Col md="4" style={{textAlign: "center"}}>
                     <Image src="/imgs/milho.png" width={34} height={39}/>
                     <div className={css.name}>Milho</div>
                     <div className={css.value}>R$ 178,00</div>
@@ -37,11 +37,11 @@ export default function Indicadores () {
                 <div style={{marginTop: 50}} className={css.titleSection}>Indicadores Financeiros</div>
                 <Row style={{marginTop: 20}}>
                     <Col></Col>
-                    <Col className={css.indicadores}>
+                    <Col sm="2" md="3" className={css.indicadores}>
                     <div ><b>EUR/USD</b></div>
                     </Col>
 
-                    <Col className={css.indicadores}>
+                    <Col sm="2" md="3" className={css.indicadores}>
                     <div>
                         Compra: 1,0522
                     </div>
@@ -50,7 +50,7 @@ export default function Indicadores () {
                     </div>
                     </Col>
 
-                    <Col style={{border: "none"}} className={css.indicadores}>
+                    <Col sm="2" md="3" style={{border: "none"}} className={css.indicadores}>
                     <div>
                         Máxima: 1,0522
                     </div>

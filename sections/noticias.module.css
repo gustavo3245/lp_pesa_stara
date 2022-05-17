@@ -68,3 +68,9 @@ padding-top: 1px;
     border-radius: 35px;
     margin-bottom: 50px;
 }
+
+@media(max-width: 600px){
+    .card{
+        margin-bottom: 20px;
+    }
+}

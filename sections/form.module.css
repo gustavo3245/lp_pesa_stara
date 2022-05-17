@@ -53,8 +53,8 @@ margin: -150px 100px 0 100px;
 @media(max-width: 600px){
     .form{
         border-radius: 50px 50px 0 0;
-        padding: 50px 100px 20px 100px;
-        margin: 0;
+        padding: 30px 50px 30px 50px;
+        margin: 8px;
     }
 
     .button{
@@ -63,5 +63,9 @@ margin: -150px 100px 0 100px;
         border-radius: 35px;
         border-top: #FFBF00 solid 2px;
         margin-bottom: 90px;
+    }
+
+    .titleForm{
+        font-size: 30px;
     }
 }

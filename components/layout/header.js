@@ -13,19 +13,20 @@ export default function Header (){
 </style>
             <Container className={css.header}>
                 <Row>
-                    <Col sm="5" md="6">
+                    <Col xs="6">
                     <Link href="/"><a><Image className={css.logo} src="/imgs/logo-pesastara.png" width={200} height={50} alt=""/></a></Link>
                     </Col>
 
-                    <Col className={css.col} sm="7" md="6">
-                    <Row>
-                        <Col>
+                    <Col xs="4" className={css.col}>
                         <div>
                             <Link href="#blog"><a className={css.link}>Blog</a></Link>
+                        </div>
+                    </Col>
+
+                    <Col sm="1" xs="1">
+                        <div className={css.col2} style={{textAlign: "right"}}>
                             <Link href="#contato"><a className={css.link}>Contato</a></Link>
                         </div>
-                        </Col>
-                    </Row>
                     </Col>
                 </Row>
             </Container>
