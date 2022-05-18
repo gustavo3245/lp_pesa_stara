@@ -21,9 +21,9 @@ export default function Infos (){
                     <Image className={css.image} src="/imgs/icon-2.png" width={91} height={91} alt="icon"/>
                     <div className={css.title}>O agronegócio <br/>gerou</div>
                     <div className={css.value}>
-                        {/* <p style={{fontFamily: "Raleway", fontSize: "35px"}}> */}
+                        <span style={{fontFamily: "Raleway", fontSize: "35px"}}>
                             R$
-                            {/* </p> */}
+                            </span>
                              1,98</div>
                     <div className={css.title2}>trilhão*</div>
                     </Col>
@@ -31,7 +31,7 @@ export default function Infos (){
                     <Col>
                     <Image className={css.image} src="/imgs/icon-3.png" width={91} height={91} alt="icon"/>
                     <div className={css.title}>O agronegócio<br/>teve um superavit de</div>
-                    <div className={css.value}>U$  102,1</div>
+                    <div className={css.value}><span style={{fontFamily: "Raleway", fontSize: "35px"}}>U$</span>102,1</div>
                     <div className={css.title2}>bilhões em 2021**</div>
                     </Col>
                 </Row>

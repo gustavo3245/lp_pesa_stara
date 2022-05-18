@@ -33,3 +33,34 @@
     font-size: 25px;
     margin-right: 10px;
 }
+
+.link{
+    color: #CB5A06;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #CB5A06;
+}
+
+@media(max-width: 600px){
+    .bgcolor{
+        background: rgba(2,32,15,1);
+    }
+
+    .image{
+        display: none;
+    }
+
+    .rowMaq{
+        margin-top: 0 !important;
+    }
+
+    .email{
+        margin-top: 15px;
+    }
+
+    .social{
+        margin-top: 15px;
+    }
+}
