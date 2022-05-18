@@ -74,6 +74,7 @@ padding-top: 1px;
     .card{
         margin-bottom: 20px;
         margin: 0;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
     }
 
     .margin{

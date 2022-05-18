@@ -5,6 +5,7 @@ import Image from "next/image"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { BsCheckCircleFill } from "react-icons/bs";
 
 export default function Agricultura() {
     const settings = {
@@ -58,13 +59,13 @@ export default function Agricultura() {
                     <div className={css.textmachine}>Pulverizador e semeador pneumático num único equipamento.</div>
                     <div className={css.borderCard}>
                     <div className={css.textCard}>
-                        Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
                         </div>
                         <div className={css.textCard}>
-                        Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
                         </div>
                         <div className={css.textCard}>
-                        Pulverização 58% mais eficiente que o melhor concorrente.
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
                     <button className={css.button}>Quero saber mais</button>
@@ -76,13 +77,13 @@ export default function Agricultura() {
                     <div className={css.textmachine}>Precisão de aplicação excelente garantida pelas barras centrais.</div>
                     <div className={css.borderCard}>
                         <div className={css.textCard}>
-                        Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
                         </div>
                         <div className={css.textCard}>
-                        Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
                         </div>
                         <div className={css.textCard}>
-                        Pulverização 58% mais eficiente que o melhor concorrente.
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
                     <button className={css.button}>Quero saber mais</button>
@@ -91,16 +92,16 @@ export default function Agricultura() {
                     <Col className={css.column}>
                     <Image className={css.img} src='/imgs/maquina-3.png' width={319} height={183}/>
                     <div className={css.nameMachine}>Imperador 3.0</div>
-                    <div className={css.textmachine}>O único autopropelido 3 em 1 do mundo.</div>
+                    <div className={css.textmachine}>O único autopropelido 3 em 1 do mundo.<br/><br/></div>
                     <div className={css.borderCard}>
                         <div className={css.textCard}>
-                        Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
                         </div>
                         <div className={css.textCard}>
-                        Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
                         </div>
                         <div className={css.textCard}>
-                        Pulverização 58% mais eficiente que o melhor concorrente.
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
                     <button className={css.button}>Quero saber mais</button>
@@ -115,13 +116,13 @@ export default function Agricultura() {
                     <div className={css.textmachine}>Pulverizador e semeador pneumático num único equipamento.</div>
                     <div className={css.borderCard}>
                         <div className={css.textCard}>
-                        Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
                         </div>
                         <div className={css.textCard}>
-                        Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
                         </div>
                         <div className={css.textCard}>
-                        Pulverização 58% mais eficiente que o melhor concorrente.
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
                     <button className={css.button}>Quero saber mais</button>
@@ -133,13 +134,13 @@ export default function Agricultura() {
                     <div className={css.textmachine}>Precisão de aplicação excelente garantida pelas barras centrais.</div>
                     <div className={css.borderCard}>
                         <div className={css.textCard}>
-                        Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
                         </div>
                         <div className={css.textCard}>
-                        Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
                         </div>
                         <div className={css.textCard}>
-                        Pulverização 58% mais eficiente que o melhor concorrente.
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
                     <button className={css.button}>Quero saber mais</button>
@@ -151,13 +152,13 @@ export default function Agricultura() {
                     <div className={css.textmachine}>O único autopropelido 3 em 1 do mundo.</div>
                     <div className={css.borderCard}>
                         <div className={css.textCard}>
-                        Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
                         </div>
                         <div className={css.textCard}>
-                        Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
                         </div>
                         <div className={css.textCard}>
-                        Pulverização 58% mais eficiente que o melhor concorrente.
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
                     <button className={css.button}>Quero saber mais</button>
@@ -174,13 +175,13 @@ export default function Agricultura() {
                     <div className={css.textmachine}>Pulverizador e semeador pneumático num único equipamento.</div>
                     <div className={css.borderCard}>
                         <div className={css.textCard}>
-                        Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
                         </div>
                         <div className={css.textCard}>
-                        Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
                         </div>
                         <div className={css.textCard}>
-                        Pulverização 58% mais eficiente que o melhor concorrente.
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
                     <button className={css.button}>Quero saber mais</button>
@@ -192,13 +193,13 @@ export default function Agricultura() {
                     <div className={css.textmachine}>Precisão de aplicação excelente garantida pelas barras centrais.</div>
                     <div className={css.borderCard}>
                         <div className={css.textCard}>
-                        Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
                         </div>
                         <div className={css.textCard}>
-                        Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
                         </div>
                         <div className={css.textCard}>
-                        Pulverização 58% mais eficiente que o melhor concorrente.
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
                     <button className={css.button}>Quero saber mais</button>
@@ -216,13 +217,13 @@ export default function Agricultura() {
                     <div className={css.textmachine}>Pulverizador e semeador pneumático num único equipamento.</div>
                     <div className={css.borderCard}>
                         <div className={css.textCard}>
-                        Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
                         </div>
                         <div className={css.textCard}>
-                        Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
                         </div>
                         <div className={css.textCard}>
-                        Pulverização 58% mais eficiente que o melhor concorrente.
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
                     <button className={css.button}>Quero saber mais</button>
@@ -234,13 +235,13 @@ export default function Agricultura() {
                     <div className={css.textmachine}>Precisão de aplicação excelente garantida pelas barras centrais.</div>
                     <div className={css.borderCard}>
                         <div className={css.textCard}>
-                        Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
                         </div>
                         <div className={css.textCard}>
-                        Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
                         </div>
                         <div className={css.textCard}>
-                        Pulverização 58% mais eficiente que o melhor concorrente.
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
                     <button className={css.button}>Quero saber mais</button>

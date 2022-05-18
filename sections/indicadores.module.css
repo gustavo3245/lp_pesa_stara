@@ -65,4 +65,9 @@
     .bgcolor{
         padding-bottom: 40px;
     }
+
+    .indicadores{
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
 }
