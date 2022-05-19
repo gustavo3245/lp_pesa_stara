@@ -3,14 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import css from './header.module.css'
 import Link from "next/link";
 import Image from "next/image";
-import HeadSite from "../_head";
 
 export default function Header (){
     return(
         <div>
-            <style>
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
             <Container className={css.header}>
                 <Row>
                     <Col xs="6">

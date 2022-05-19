@@ -22,10 +22,10 @@ export default function Footer () {
                 </Row>
                 <Row style={{marginTop: 50}}>
                     <Col>
-                    <div className={css.fraseFooter}>Junto <br/> com <br/> você!</div>
+                    <div className={css.fraseFooter}><span style={{color: "#005F2A"}}>Junto <br/> com </span><br/> você!</div>
                     </Col>
                     <Col>
-                    <Image src="/imgs/logo-footer.png" width={217} height={58}/>
+                    <Image src="/imgs/logo-footer.png" alt="logo" width={217} height={58}/>
                     </Col>
                     <Col>
                     <div className={css.email}><Link href="https://www.pesastara.com.br"><a className={css.link} target="_blank">www.pesastara.com.br</a></Link></div>
