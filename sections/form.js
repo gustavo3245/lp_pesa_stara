@@ -79,14 +79,16 @@ export default function Form (){
                    </div>
                     <div style={{textAlign: "center"}}>
                 <button  onClick={formSubmit} className={css.button}>Enviar</button>
-                        <div style={{marginTop: -50, marginBottom: 20, position: "absolute"}}>
+                        <div className={css.load} style={{marginTop: -50, marginBottom: 20, position: "absolute"}}>
                             {load &&
                             <div className='d-flex align-items-center'>
                                <div>
                                    <img width={35} src="/imgs/loading.svg" alt=""/>
                                </div>
                                <div className={'ms-2'}>
+                                   <div className={css.loading}>
                                    Enviando...
+                                   </div>
                                </div>
                             </div>
                             }
