@@ -7,7 +7,8 @@
     background: rgb(167,168,168);
 background: linear-gradient(209deg, rgba(167,168,168,1) 0%, rgba(241,243,242,1) 100%);
 border-radius: 50px 50px 0 0;
-padding: 50px 100px 20px 100px;
+
+    padding: 50px 100px 120px 100px;
 margin: -150px 100px 0 100px;
 }
 
@@ -47,7 +48,6 @@ margin: -150px 100px 0 100px;
     border-radius: 35px;
     border-top: #FFBF00 solid 2px;
     margin-top: 15px;
-    margin-bottom: 90px;
 }
 
 @media(max-width: 600px){
