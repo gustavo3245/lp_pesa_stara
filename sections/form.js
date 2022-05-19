@@ -27,7 +27,7 @@ export default function Form (){
         if (addForm.success) {
             setLoad(false)
             toast.success(addForm.success,);
-            setForm({ email: "", name: "" ,telefone:''});
+            setForm({ email: "", name: "" ,telefone:'', idEmpresa:5, pagina:'form_pesa_stara_contato_lp'});
         }
     }
 
