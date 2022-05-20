@@ -1,0 +1,29 @@
+.bgcolor{
+    background-color: #0E2207;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.text{
+    color: white;
+}
+
+.icon{
+    color: #F26E20;
+}
+
+.divider1{
+    height: 5px;
+    background-color: #F26E20;
+    margin-bottom: 5px;
+}
+
+.divider2{
+    height: 2px;
+    background-color: white;
+}
+
+.date{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
