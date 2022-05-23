@@ -1,0 +1,41 @@
+.titleSection{
+    border-bottom: 6px #f26e20 solid;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 28px;
+}
+
+.divider{
+    height: 3px;
+    background-color: #238e25;
+    margin-top: 4px;
+}
+
+.border{
+    border: #f26e20 solid 2px;
+    border-radius: 45px;
+    text-align: center;
+}
+
+.card{
+    border: #f26e20 solid 2px;
+    padding: 0 0 35px 0;
+    border-radius: 48px;
+    margin-left: 15px;
+}
+
+.nomeMaquina{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.btnSaiba{
+    color: #f26e20;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-left: 15px;
+}

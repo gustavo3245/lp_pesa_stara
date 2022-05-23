@@ -4,6 +4,7 @@ import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Link from "next/link"
 
 const settings = {
     dots: false,
@@ -98,7 +99,7 @@ export default function Noticias () {
                 </Row>
 
                 <div style={{textAlign: "center"}}>
-                <button className={css.button}>Ver todas as notícias</button>
+                <Link href="/blog"><a><button className={css.button}>Ver todas as notícias</button></a></Link>
                 </div>
             </Container>
         </div>

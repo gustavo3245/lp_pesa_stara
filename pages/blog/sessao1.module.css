@@ -1,15 +1,26 @@
 .bgcolor{
     background-color: #0E2207;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 190px;
+}
+
+.noticias{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
 }
 
 .text{
     color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 
 .icon{
     color: #F26E20;
+    font-size: 25px;
 }
 
 .divider1{
@@ -26,4 +37,100 @@
 .date{
     color: white;
     font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+.titlePost{
+    color: #F26E20;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.textPost{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button{
+    background-color: transparent;
+    border-radius: 0;
+    border: #F26E20 solid 2px;
+    color: #F26E20;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding: 5px 15px 5px 15px;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: #F26E20;
+    color: white;
+    transition: 0.3s;
+}
+
+.card{
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 20px 0 20px;
+}
+
+.datePost{
+    color: #005f2a;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 25px;
+}
+
+
+.post{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 15px 0 25px;
+}
+
+.bgcolor{
+    background: rgb(10,57,14);
+background: linear-gradient(180deg, rgba(10,57,14,1) 36%, rgba(15,36,7,1) 100%);
+padding-top: 1px;
+}
+
+.titleSection{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-size: 20px;
+    margin-top: 25px;
+    padding-bottom: 15px;
+    border-bottom: solid 4px #F26E20;
+}
+
+.divider{
+    height: 2px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.card{
+    background-color: white;
+    padding: 0;
+    margin: 0 30px 0 30px;
+    border-radius: 50px;
+    box-shadow: 0 10px 25px black;
+}
+
+.link{
+    margin-left: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: #F26E20;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.margin{
+    margin-top: 40px;
 }
