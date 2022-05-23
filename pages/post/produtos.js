@@ -12,7 +12,7 @@ export default function Produtos(){
                     <div className={css.divider}></div>
                 </Row>
 
-                <Row className="py-3">
+                <Row className="py-5">
                     <Col className={css.card}>
                     <div className={css.border}>
                         <Image src="/imgs/maquina-blog-1.png" width={327} height={187}/>
