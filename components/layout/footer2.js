@@ -10,7 +10,7 @@ export default function Footer2 () {
                     <div className={css.cidade}>Cambé/PR</div>
                     <div className={css.info}>PESA AGRO COMÉRCIO DE MÁQUINAS S/A</div>
                     <div className={css.info}>Rod. Celso Garcia Cid, km 87 - Lote 234 A - Parque Industrial, Cambé - PR, 86183 - 600</div>
-                    <div style={{marginBottom: 30}} className={css.info}>Telefone: (43) 3154 - 0278</div>
+                    <div style={{marginBottom: 30}} className={css.info}>Telefone: (43) 3154-0278</div>
                     </Col>
                     <Col md="3" sm="12">
                     <div className={css.cidade}>Ivaporã/PR</div>
@@ -26,7 +26,7 @@ export default function Footer2 () {
                     <div className={css.cidade}>Maringá/PR</div>
                     <div className={css.info}>PESA AGRO COMÉRCIO DE MÁQUINAS S/A</div>
                     <div className={css.info}>Rod. PR 317, 7073 - Lote 01/02, Data 001, Quadra 056, Zona 47 - Parque Industrial Mario Bulhões da Fonseca CEP 87.065 - 000</div>
-                    <div className={css.info}>Telefone: (44) 3366 - 3000</div>
+                    <div className={css.info}>Telefone: (44) 2103-7700</div>
                     </Col>
                 </Row>
             </Container>

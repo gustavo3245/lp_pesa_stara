@@ -11,6 +11,16 @@
     color: #F26E20;
 }
 
+.button{
+    background-color: transparent;
+    border: none;
+}
+
+.button:hover{
+    background-color: transparent;
+    border: none;
+}
+
 @media(max-width: 600px){
     .bgbanner{
         background-size: cover;

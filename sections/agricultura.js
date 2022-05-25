@@ -77,13 +77,13 @@ export default function Agricultura() {
                     <div className={css.textmachine}>Precisão de aplicação excelente garantida pelas barras centrais.</div>
                     <div className={css.borderCard}>
                         <div className={css.textCard}>
-                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>A linha de Imperador da Stara é a única no mundo com barras centrais;
                         </div>
                         <div className={css.textCard}>
-                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Menor desperdício e maior amplitude de velocidade de trabalho com duas linhas de ponta de pulverização, o sistema dupla linha e bico a bico;
                         </div>
                         <div className={css.textCard}>
-                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Mais homogeneidade nas aplicações com o exclusivo Sistema Recirculante Contínuo, onde a calda se mantém em constante circulação nas tubulações e no reservatório.
                         </div>
                     </div>
                     <button className={css.button}>Quero saber mais</button>
@@ -193,13 +193,13 @@ export default function Agricultura() {
                     <div className={css.textmachine}>Precisão de aplicação excelente garantida pelas barras centrais.</div>
                     <div className={css.borderCard}>
                         <div className={css.textCard}>
-                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>A linha de Imperador da Stara é a única no mundo com barras centrais;
                         </div>
                         <div className={css.textCard}>
-                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Menor desperdício e maior amplitude de velocidade de trabalho com duas linhas de ponta de pulverização, o sistema dupla linha e bico a bico;
                         </div>
                         <div className={css.textCard}>
-                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Mais homogeneidade nas aplicações com o exclusivo Sistema Recirculante Contínuo, onde a calda se mantém em constante circulação nas tubulações e no reservatório.
                         </div>
                     </div>
                     <button className={css.button}>Quero saber mais</button>
@@ -235,13 +235,13 @@ export default function Agricultura() {
                     <div className={css.textmachine}>Precisão de aplicação excelente garantida pelas barras centrais.</div>
                     <div className={css.borderCard}>
                         <div className={css.textCard}>
-                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Equipamento com sistema pneumático que proporciona a semeadura da cultura de cobertura em toda a extensão da barra;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>A linha de Imperador da Stara é a única no mundo com barras centrais;
                         </div>
                         <div className={css.textCard}>
-                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Reservatório em polietileno com dois compartimentos, uma inovação exclusiva da Stara;
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Menor desperdício e maior amplitude de velocidade de trabalho com duas linhas de ponta de pulverização, o sistema dupla linha e bico a bico;
                         </div>
                         <div className={css.textCard}>
-                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Mais homogeneidade nas aplicações com o exclusivo Sistema Recirculante Contínuo, onde a calda se mantém em constante circulação nas tubulações e no reservatório.
                         </div>
                     </div>
                     <button className={css.button}>Quero saber mais</button>
