@@ -14,11 +14,13 @@ export default function Footer2 () {
                     </Col>
                     <Col md="3" sm="12">
                     <div className={css.cidade}>Ivaporã/PR</div>
-                    <div style={{marginBottom: 30}} className={css.info}>Av. Ladislau Gil Fernanders, 1140 - Maanaim, Ivaporã - PR, 86870 - 000</div>
+                    <div className={css.info}>Av. Ladislau Gil Fernanders, 1140 - Maanaim, Ivaporã - PR, 86870 - 000</div>
+                    <div style={{marginBottom: 30}} className={css.info}>Telefone: (43) 3484-1250</div>
                     </Col>
                     <Col md="3" sm="12">
                     <div className={css.cidade}>Cornélio Procópio/PR</div>
-                    <div style={{marginBottom: 30}} className={css.info}>Rodovia BR 369, KM 88, Vila Galeano, Cornélio Procópio/PR</div>
+                    <div className={css.info}>Rodovia BR 369, KM 88, Vila Galeano, Cornélio Procópio/PR</div>
+                    <div style={{marginBottom: 30}} className={css.info}>Telefone: (43) 3401-9900</div>
                     </Col>
                     <Col md="3" sm="12">
                     <div className={css.cidade}>Maringá/PR</div>
