@@ -15,7 +15,7 @@ export default function Produtos(){
                 <Row className="py-5">
                     <Col className={css.card}>
                     <div className={css.border}>
-                        <Image src="/imgs/maquina-blog-1.png" width={327} height={187}/>
+                        <Image src="/imgs/maquina-blog-1.png" alt="maquina" width={327} height={187}/>
                         </div>
 
                         <div className={css.nomeMaquina}>
@@ -28,7 +28,7 @@ export default function Produtos(){
 
                     <Col className={css.card}>
                     <div className={css.border}>
-                        <Image className={css.img} src="/imgs/maquina-blog-2.png" width={327} height={187}/>
+                        <Image className={css.img} src="/imgs/maquina-blog-2.png" alt="maquina" width={327} height={187}/>
                         </div>
 
                         <div className={css.nomeMaquina}>

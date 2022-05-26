@@ -52,21 +52,21 @@ export default function Noticias () {
                 <div className={css.divider}></div>
                 <Row className={css.margin}>
                     <Col className={css.card}>
-                    <Image className={css.img} src='/imgs/noticia-1.png' width={319} height={183}/>
+                    <Image className={css.img} src='/imgs/noticia-1.png' alt="noticia" width={319} height={183}/>
                     <div className={css.date}>24/04/2022</div>
                     <div className={css.titlePost}>Stara traz lançamentos para Agrishow 2022</div>
                     <div className={css.link}>leia mais</div>
                     </Col>
 
                     <Col className={css.card}>
-                    <Image className={css.img} src='/imgs/noticia-2.png' width={319} height={183}/>
+                    <Image className={css.img} src='/imgs/noticia-2.png' alt="noticia" width={319} height={183}/>
                     <div className={css.date}>24/04/2022</div>
                     <div className={css.titlePost}>Stara realiza sua 12ª convenção de concessionárias e revendas</div>
                     <div className={css.link}>leia mais</div>
                     </Col>
 
                     <Col className={css.card}>
-                    <Image className={css.img} src='/imgs/noticia-2.png' width={319} height={183}/>
+                    <Image className={css.img} src='/imgs/noticia-2.png' alt="noticia" width={319} height={183}/>
                     <div className={css.date}>24/04/2022</div>
                     <div className={css.titlePost}>Stara realiza sua 12ª convenção de concessionárias e revendas</div>
                     <div className={css.link}>leia mais</div>
@@ -76,21 +76,21 @@ export default function Noticias () {
                 <Row className={css.mobile}>
                     <Slider {...settings}>
                     <Col className={css.card}>
-                    <Image className={css.img} src='/imgs/noticia-1.png' width={319} height={183}/>
+                    <Image className={css.img} src='/imgs/noticia-1.png' alt="noticia" width={319} height={183}/>
                     <div className={css.date}>24/04/2022</div>
                     <div className={css.titlePost}>Stara traz lançamentos para <br/> Agrishow 2022</div>
                     <div className={css.link}>leia mais</div>
                     </Col>
 
                     <Col className={css.card}>
-                    <Image className={css.img} src='/imgs/noticia-2.png' width={319} height={183}/>
+                    <Image className={css.img} src='/imgs/noticia-2.png' alt="noticia" width={319} height={183}/>
                     <div className={css.date}>24/04/2022</div>
                     <div className={css.titlePost}>Stara realiza sua 12ª convenção de <br/> concessionárias e revendas</div>
                     <div className={css.link}>leia mais</div>
                     </Col>
 
                     <Col className={css.card}>
-                    <Image className={css.img} src='/imgs/noticia-2.png' width={319} height={183}/>
+                    <Image className={css.img} src='/imgs/noticia-2.png' alt="noticia" width={319} height={183}/>
                     <div className={css.date}>24/04/2022</div>
                     <div className={css.titlePost}>Stara realiza sua 12ª convenção de <br/>concessionárias e revendas</div>
                     <div className={css.link}>leia mais</div>
