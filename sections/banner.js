@@ -4,7 +4,6 @@ import { BsFillPlayCircleFill } from "react-icons/bs";
 import { IoMdClose } from "react-icons/io";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from "react";
-import Bootstrap from 'bootstrap';
 
 export default function Banner() {
 
@@ -16,12 +15,14 @@ export default function Banner() {
     return(
         <div>
         <div className={css.bgbanner}>
+            <Container>
             <div style={{textAlign: "center"}}>
                 <button
                 onClick={toggleModal}
                 className={css.btnModal}
                 ><BsFillPlayCircleFill className={css.icon}/></button>
             </div>
+            </Container>
         </div>
 
         {modal && (
@@ -39,7 +40,6 @@ export default function Banner() {
             </div>
         </div>
         )}
-        
         </div>
     )
 }

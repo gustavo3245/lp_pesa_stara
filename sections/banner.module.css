@@ -86,4 +86,35 @@ body.active-modal {
         font-size: 60px;
         margin-top: 60px;
     }
+
+    .modalContent {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 1.4;
+        padding: 14px 28px;
+        border-radius: 3px;
+    }
+
+    .closeModal {
+        position: absolute;
+        top: -25px;
+        right: 10px;
+        padding: 5px 7px;
+        cursor: pointer;
+    }
+
+    .video{
+        width: 350px !important;
+        height: 200px !important;
+    }
+
+    .closeModal {
+        position: absolute;
+        top: -25px;
+        right: 30px;
+        padding: 5px 7px;
+        cursor: pointer;
+    }
 }
