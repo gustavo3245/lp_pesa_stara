@@ -11,7 +11,7 @@ export default function Headerblog(){
             <Container>
                 <Row className={css.header}>
                     <Col xs="6">
-                    <Link href="/"><a><Image className={css.logo} src="/imgs/logo-pesastara.png" alt="logo" width={200} height={50} alt=""/></a></Link>
+                    <Link href="/"><a><Image className={css.logo} src="/imgs/logo-pesastara.png" alt="logo" width={200} height={50}/></a></Link>
                     </Col>
 
                     <Col style={{marginTop: 15}} xs="4" className={css.col}>
