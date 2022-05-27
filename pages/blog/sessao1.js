@@ -9,7 +9,7 @@ export default function Sessao1() {
     return(
         <div className={css.bgcolor}>
             <style>
-<Link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet"/>
 </style>
             <Container>
                 <Row style={{marginTop: 50}}>
