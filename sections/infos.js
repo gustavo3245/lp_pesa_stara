@@ -24,18 +24,16 @@ export default function Infos (){
                     <Image className={css.image} src="/imgs/icon-1.png" width={91} height={91} alt="icon"/>
                     <div className={css.title}>O agronegócio <br/> é</div>
                     <div>
-                        <ContadorAgro2 numero1={27} numero2={4}/>
+                        <ContadorAgro numero1={27} numero2={4}/>
                     </div>
                     <div className={css.title2}>do PIB do Brasil*</div>
                     </Col>
                     <Col>
                     <Image className={css.image} src="/imgs/icon-2.png" width={91} height={91} alt="icon"/>
                     <div className={css.title}>O agronegócio <br/>gerou</div>
-                    <div className={css.value}>
-                        <span style={{fontFamily: "Raleway", fontSize: "35px"}}>
-                            R$
-                            </span>
-
+                    <div>
+                        <span style={{fontFamily: "Raleway", fontSize: "35px"}}></span>
+                        <ContadorAgro2 numero1={1} numero2={98}/>
                     </div>
                     <div className={css.title2}>trilhão*</div>
                     </Col>
@@ -44,8 +42,8 @@ export default function Infos (){
                     <Image className={css.image} src="/imgs/icon-3.png" width={91} height={91} alt="icon"/>
                     <div className={css.title}>O agronegócio<br/>teve um superavit de</div>
                     <div>
-                        <span style={{fontFamily: "Raleway", fontSize: "35px"}}>U$</span>
-                        <ContadorAgro2 numero1={102} numero2={1}/>
+                        <span style={{fontFamily: "Raleway", fontSize: "35px"}}></span>
+                        <ContadorAgro3 numero1={105} numero2={1}/>
                     </div>
                     <div className={css.title2}>bilhões em 2021**</div>
                     </Col>
@@ -63,15 +61,15 @@ export default function Infos (){
     )
 }
 
-function ContadorAgro2({numero1, numero2}) {
+function ContadorAgro({numero1, numero2}) {
     return (
         <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
             {({ isVisible }) => (
                 <div style={{ height: 100 }}>
                     {isVisible ?
                         <div className={css.value}>
-                            <CountUp end={numero1} duration={4}/>,
-                            <CountUp end={numero2} duration={4}/>%
+                            <CountUp end={numero1} duration={3}/>,
+                            <CountUp end={numero2} duration={3}/>%
                         </div>: null}
                 </div>
             )}
@@ -80,6 +78,23 @@ function ContadorAgro2({numero1, numero2}) {
 }
 
 
+function ContadorAgro2({numero1, numero2}) {
+    return (
+        <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+            {({ isVisible }) => (
+                <div style={{ height: 100 }}>
+                    {isVisible ?
+                        <div className={css.value}>
+                            <span style={{fontSize: 40, fontFamily: "Gotham"}}>R$</span>
+                            <CountUp end={numero1} duration={3}/>,
+                            <CountUp end={numero2} duration={3}/>
+                        </div>: null}
+                </div>
+            )}
+        </VisibilitySensor>
+    )
+}
+
 function ContadorAgro3({numero1, numero2}) {
     return (
         <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
@@ -87,9 +102,9 @@ function ContadorAgro3({numero1, numero2}) {
                 <div style={{ height: 100 }}>
                     {isVisible ?
                         <div className={css.value}>
-                            $
-                            <CountUp end={numero1} duration={4}/>,
-                            <CountUp end={numero2} duration={4}/>%
+                            <span style={{fontSize: 40, fontFamily: "Gotham"}}>U$</span>
+                            <CountUp end={numero1} duration={3}/>,
+                            <CountUp end={numero2} duration={3}/>%
                         </div>: null}
                 </div>
             )}
