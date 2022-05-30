@@ -6,6 +6,12 @@
     border-bottom: solid 15px #F26E20;
 }
 
+.videobg{
+    width: 1349px;
+    height: 590px;
+    border-bottom: #F26E20 solid 10px;
+}
+
 .icon{
     font-size: 80px;
     color: #F26E20;

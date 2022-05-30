@@ -4,6 +4,8 @@ import { BsFillPlayCircleFill } from "react-icons/bs";
 import { IoMdClose } from "react-icons/io";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from "react";
+import YoutubeBackground from 'react-youtube-background'
+
 
 export default function Banner() {
 
@@ -12,10 +14,14 @@ export default function Banner() {
     const toggleModal = () => {
         setModal(!modal)
     }
+    
     return(
         <div>
-        <div className={css.bgbanner}>
+            <YoutubeBackground 
+            className={css.videobg} videoId='LIYupDbUJME'></YoutubeBackground>
+        {/* <div className={css.bgbanner}>
             <Container>
+                
             <div style={{textAlign: "center"}}>
                 <button
                 onClick={toggleModal}
@@ -23,9 +29,9 @@ export default function Banner() {
                 ><BsFillPlayCircleFill className={css.icon}/></button>
             </div>
             </Container>
-        </div>
+        </div> */}
 
-        {modal && (
+        {/* {modal && (
 <div className={css.modal}>
             <div
             onClick={toggleModal}
@@ -39,7 +45,7 @@ export default function Banner() {
                 </div>
             </div>
         </div>
-        )}
+        )} */}
         </div>
     )
 }
