@@ -24,7 +24,9 @@
 }
 
 .value{
-    font-family: 'Gotham Bold';
+    display: flex;
+    justify-content: center;
+    font-family: 'Gotham Bold', sans-serif;
     font-size: 70px;
     color: #F26E20;
 }
