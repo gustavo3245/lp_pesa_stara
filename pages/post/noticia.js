@@ -38,7 +38,7 @@ export default function Post(){
                     </Col>
 
                     <Col>
-                        <Image src="/imgs/img-post-aberto.png" width={503} height={345} />
+                        <Image src="/imgs/img-post-aberto.png" width={503} height={345} alt="img" />
                     </Col>
                 </Row>
             </Container>
@@ -72,7 +72,7 @@ export default function Post(){
                     <Col>
                         <div className={css.cardImg}>
                         <div>
-                            <Image src="/imgs/img2-post.png" width={309} height={421} alt=""/>
+                            <Image src="/imgs/img2-post.png" width={309} height={421} alt="img"/>
                         </div>
                         <div className={css.imgDescription}>Lorem ipsum site damet</div>
                         </div>
