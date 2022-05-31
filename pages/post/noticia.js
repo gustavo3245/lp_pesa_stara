@@ -59,11 +59,11 @@ export default function Post(){
                         <div>
                             <Row>
                                 <div className={css.icones}>
-                                    <FiChevronsLeft/>Voltar 
+                                    <Link href="/blog"><a className={css.link}><FiChevronsLeft/>Voltar</a></Link> 
                                     <AiTwotonePrinter className={css.icon2}/>
-                                     <FaFacebookF className={css.icon2}/> 
+                                     <Link href="https://www.facebook.com/PesaStara/"><a target="_blank"><FaFacebookF className={css.icon2}/></a></Link>
                                      <ImWhatsapp className={css.icon2}/>
-                                     <FaLinkedinIn className={css.icon2}/> 
+                                     <Link href="https://www.linkedin.com/company/pesa-stara"><a target="_blank"><FaLinkedinIn className={css.icon2}/></a></Link>
                                      <FaLink className={css.icon2}/></div>
                             </Row>
                         </div>

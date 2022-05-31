@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Relacionadas(){
     const settings = {
@@ -53,21 +54,21 @@ export default function Relacionadas(){
                     <Image className={css.img} src='/imgs/noticia-1.png' alt="maquina" width={319} height={183}/>
                     <div className={css.date}>24/04/2022</div>
                     <div className={css.titlePost}>Stara traz lançamentos para Agrishow 2022</div>
-                    <div className={css.link}>leia mais</div>
+                    <Link href="/post"><a className={css.linkPost}><div className={css.link}>leia mais</div></a></Link>
                     </Col>
 
                     <Col className={css.card}>
                     <Image className={css.img} src='/imgs/noticia-2.png' alt="maquina" width={319} height={183}/>
                     <div className={css.date}>24/04/2022</div>
                     <div className={css.titlePost}>Stara realiza sua 12ª convenção de concessionárias e revendas</div>
-                    <div className={css.link}>leia mais</div>
+                    <Link href="/post"><a className={css.linkPost}><div className={css.link}>leia mais</div></a></Link>
                     </Col>
 
                     <Col className={css.card}>
                     <Image className={css.img} src='/imgs/noticia-2.png' alt="maquina" width={319} height={183}/>
                     <div className={css.date}>24/04/2022</div>
                     <div className={css.titlePost}>Stara realiza sua 12ª convenção de concessionárias e revendas</div>
-                    <div className={css.link}>leia mais</div>
+                    <Link href="/post"><a className={css.linkPost}><div className={css.link}>leia mais</div></a></Link>
                     </Col>
                 </Row>
             </Container>

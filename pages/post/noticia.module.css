@@ -9,6 +9,15 @@
     text-transform: uppercase;
 }
 
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    color: black;
+}
+
 .text{
     color: white;
     font-family: 'Raleway', sans-serif;

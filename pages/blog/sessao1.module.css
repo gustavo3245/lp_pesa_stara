@@ -12,6 +12,10 @@
     font-size: 22px;
 }
 
+.linkPost{
+    text-decoration: none;
+}
+
 .text{
     color: white;
     font-family: 'Raleway', sans-serif;

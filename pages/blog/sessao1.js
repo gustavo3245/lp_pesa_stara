@@ -54,21 +54,21 @@ export default function Sessao1() {
                     <Image className={css.img} src='/imgs/noticia-1.png' width={319} height={183} alt="blog"/>
                     <div className={css.datePost}>24/04/2022</div>
                     <div className={css.post}>Stara traz lançamentos para Agrishow 2022</div>
-                    <div className={css.link}>leia mais</div>
+                    <Link href="/post"><a className={css.linkPost}><div className={css.link}>leia mais</div></a></Link>
                     </Col>
 
                     <Col className={css.card}>
                     <Image className={css.img} src='/imgs/noticia-2.png' width={319} height={183} alt="blog"/>
                     <div className={css.datePost}>24/04/2022</div>
                     <div className={css.post}>Stara realiza sua 12ª convenção de concessionárias e revendas</div>
-                    <div className={css.link}>leia mais</div>
+                    <Link href="/post"><a className={css.linkPost}><div className={css.link}>leia mais</div></a></Link>
                     </Col>
 
                     <Col className={css.card}>
                     <Image className={css.img} src='/imgs/noticia-2.png' width={319} height={183} alt="blog"/>
                     <div className={css.datePost}>24/04/2022</div>
                     <div className={css.post}>Stara realiza sua 12ª convenção de concessionárias e revendas</div>
-                    <div className={css.link}>leia mais</div>
+                    <Link href="/post"><a className={css.linkPost}><div className={css.link}>leia mais</div></a></Link>
                     </Col>
                 </Row>
 
@@ -77,21 +77,21 @@ export default function Sessao1() {
                     <Image className={css.img} src='/imgs/noticia-1.png' width={319} height={183} alt="blog"/>
                     <div className={css.datePost}>24/04/2022</div>
                     <div className={css.post}>Stara traz lançamentos para Agrishow 2022</div>
-                    <div className={css.link}>leia mais</div>
+                    <Link href="/post"><a className={css.linkPost}><div className={css.link}>leia mais</div></a></Link>
                     </Col>
 
                     <Col className={css.card}>
                     <Image className={css.img} src='/imgs/noticia-2.png' width={319} height={183} alt="blog"/>
                     <div className={css.datePost}>24/04/2022</div>
                     <div className={css.post}>Stara realiza sua 12ª convenção de concessionárias e revendas</div>
-                    <div className={css.link}>leia mais</div>
+                    <Link href="/post"><a className={css.linkPost}><div className={css.link}>leia mais</div></a></Link>
                     </Col>
 
                     <Col className={css.card}>
                     <Image className={css.img} src='/imgs/noticia-2.png' width={319} height={183} alt="blog"/>
                     <div className={css.datePost}>24/04/2022</div>
                     <div className={css.post}>Stara realiza sua 12ª convenção de concessionárias e revendas</div>
-                    <div className={css.link}>leia mais</div>
+                    <Link href="/post"><a className={css.linkPost}><div className={css.link}>leia mais</div></a></Link>
                     </Col>
                 </Row>
 
@@ -100,21 +100,21 @@ export default function Sessao1() {
                     <Image className={css.img} src='/imgs/noticia-1.png' width={319} height={183} alt="blog"/>
                     <div className={css.datePost}>24/04/2022</div>
                     <div className={css.post}>Stara traz lançamentos para Agrishow 2022</div>
-                    <div className={css.link}>leia mais</div>
+                    <Link href="/post"><a className={css.linkPost}><div className={css.link}>leia mais</div></a></Link>
                     </Col>
 
                     <Col className={css.card}>
                     <Image className={css.img} src='/imgs/noticia-2.png' width={319} height={183} alt="blog"/>
                     <div className={css.datePost}>24/04/2022</div>
                     <div className={css.post}>Stara realiza sua 12ª convenção de concessionárias e revendas</div>
-                    <div className={css.link}>leia mais</div>
+                    <Link href="/post"><a className={css.linkPost}><div className={css.link}>leia mais</div></a></Link>
                     </Col>
 
                     <Col className={css.card}>
                     <Image className={css.img} src='/imgs/noticia-2.png' width={319} height={183} alt="blog"/>
                     <div className={css.datePost}>24/04/2022</div>
                     <div className={css.post}>Stara realiza sua 12ª convenção de concessionárias e revendas</div>
-                    <div className={css.link}>leia mais</div>
+                    <Link href="/post"><a className={css.linkPost}><div className={css.link}>leia mais</div></a></Link>
                     </Col>
                 </Row>
             </Container>
