@@ -1,11 +1,12 @@
 import { Row, Col, Container } from 'reactstrap'
 import css from './banner.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, { useState } from "react";
+import React, { useState, } from "react";
 import YoutubeBackground from 'react-youtube-background';
 import Link from 'next/link';
 import Image from 'next/image';
 
+const videoHeight = 100;
 
 export default function Banner() {
     
