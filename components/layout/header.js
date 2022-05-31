@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Header (){
     return(
-        <div>
+        <div className={css.bg}>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
             <Container className={css.header}>
                 <Row>

@@ -1,51 +1,39 @@
 import { Row, Col, Container } from 'reactstrap'
 import css from './banner.module.css'
-import { BsFillPlayCircleFill } from "react-icons/bs";
-import { IoMdClose } from "react-icons/io";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from "react";
-import YoutubeBackground from 'react-youtube-background'
+import YoutubeBackground from 'react-youtube-background';
+import Link from 'next/link';
+import Image from 'next/image';
 
 
 export default function Banner() {
-
-    const [modal, setModal] = useState(false);
-
-    const toggleModal = () => {
-        setModal(!modal)
-    }
     
     return(
         <div>
-            <YoutubeBackground 
-            className={css.videobg} videoId='LIYupDbUJME'></YoutubeBackground>
-        {/* <div className={css.bgbanner}>
-            <Container>
-                
-            <div style={{textAlign: "center"}}>
-                <button
-                onClick={toggleModal}
-                className={css.btnModal}
-                ><BsFillPlayCircleFill className={css.icon}/></button>
-            </div>
-            </Container>
-        </div> */}
+            <YoutubeBackground className={css.videobg} videoId='LIYupDbUJME'>
+                <Row className={css.bgGradient}>
+                    <Container>
+                        <Row className='py-4'>
+                            <Col className={css.colLogo} xs="6">
+                             <Link href="/"><a><Image src="/imgs/logo-pesastara.png" width={200} height={50} alt=""/></a></Link>
+                            </Col>
 
-        {/* {modal && (
-<div className={css.modal}>
-            <div
-            onClick={toggleModal}
-            className={css.overlay}>
-                <div className={css.modalContent}>
-                <iframe className={css.video} width="560" height="315" src="https://www.youtube.com/embed/LIYupDbUJME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div
-                    className={css.closeModal}
-                    onClick={toggleModal}
-                    ><IoMdClose className={css.closeIcon} /></div>
-                </div>
-            </div>
-        </div>
-        )} */}
+                            <Col xs="4" className={css.col}>
+                                <div>
+                                    <Link href="#blog"><a className={css.link}>Blog</a></Link>
+                                </div>
+                            </Col>
+
+                            <Col xs="1">
+                             <div className={css.col2} style={{textAlign: 'end'}}>
+                                <Link href="#contato"><a className={css.link}>Contato</a></Link>
+                             </div>
+                          </Col>
+                        </Row>
+                    </Container>
+                </Row>
+            </YoutubeBackground>
         </div>
     )
 }
