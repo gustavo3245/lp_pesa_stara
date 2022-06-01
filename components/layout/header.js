@@ -10,7 +10,7 @@ export default function Header (){
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
             <div className={`${css.header} container-fluid`}>
                 <Row style={{alignItems: "center"}}>
-                    <Col xs="6">
+                    <Col xs="6" className={css.colImg}>
                     <Link href="/"><a><Image className={css.logo} src="/imgs/logo-pesastara.png" width={200} height={50} alt=""/></a></Link>
                     </Col>
 
