@@ -22,9 +22,6 @@
 }
 
 @media(max-width: 600px){
-    .header{
-        margin-bottom: -130px;
-    }
 
     .logo{
         margin-right: 20px;

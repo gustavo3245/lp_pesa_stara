@@ -68,7 +68,7 @@ export default function Agricultura() {
                         <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
-                    <button className={css.button}>Quero saber mais</button>
+                    <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>
                     </Col>
 
                     <Col className={css.column}>
@@ -86,8 +86,7 @@ export default function Agricultura() {
                         <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Mais homogeneidade nas aplicações com o exclusivo Sistema Recirculante Contínuo, onde a calda se mantém em constante circulação nas tubulações e no reservatório.
                         </div>
                     </div>
-                    <button className={css.button}>Quero saber mais</button>
-                    </Col>
+                    <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>                    </Col>
 
                     <Col className={css.column}>
                     <Image className={css.img} src='/imgs/maquina-3.png' width={319} height={183}/>
@@ -104,8 +103,7 @@ export default function Agricultura() {
                         <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
-                    <button className={css.button}>Quero saber mais</button>
-                    </Col>
+                    <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>                    </Col>
                 </Row>
 
                 <Row className={css.mobile}>
@@ -125,8 +123,7 @@ export default function Agricultura() {
                         <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
-                    <button className={css.button}>Quero saber mais</button>
-                    </Col>
+                    <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>                    </Col>
 
                     <Col className={css.column}>
                     <Image className={css.img} src='/imgs/maquina-2.png' width={319} height={183}/>
@@ -143,8 +140,7 @@ export default function Agricultura() {
                         <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
-                    <button className={css.button}>Quero saber mais</button>
-                    </Col>
+                    <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>                    </Col>
 
                     <Col className={css.column}>
                     <Image className={css.img} src='/imgs/maquina-3.png' width={319} height={183}/>
@@ -161,8 +157,7 @@ export default function Agricultura() {
                         <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
-                    <button className={css.button}>Quero saber mais</button>
-                    </Col>
+                    <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>                    </Col>
                     </Slider>
                 </Row>
                 <div className={css.machineTitle}>Plantadeiras</div>
@@ -184,8 +179,7 @@ export default function Agricultura() {
                         <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
-                    <button className={css.button}>Quero saber mais</button>
-                    </Col>
+                    <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>                    </Col>
 
                     <Col className={css.column}>
                     <Image className={css.img} src='/imgs/maquina-2.png' width={319} height={183}/>
@@ -202,8 +196,7 @@ export default function Agricultura() {
                         <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Mais homogeneidade nas aplicações com o exclusivo Sistema Recirculante Contínuo, onde a calda se mantém em constante circulação nas tubulações e no reservatório.
                         </div>
                     </div>
-                    <button className={css.button}>Quero saber mais</button>
-                    </Col>
+                    <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>                    </Col>
 
                     <Col className={css.empty}>
                     </Col>
@@ -226,8 +219,7 @@ export default function Agricultura() {
                         <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Pulverização 58% mais eficiente que o melhor concorrente.
                         </div>
                     </div>
-                    <button className={css.button}>Quero saber mais</button>
-                    </Col>
+                    <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>                    </Col>
 
                     <Col className={css.column}>
                     <Image className={css.img} src='/imgs/maquina-2.png' width={319} height={183}/>
@@ -244,8 +236,7 @@ export default function Agricultura() {
                         <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Mais homogeneidade nas aplicações com o exclusivo Sistema Recirculante Contínuo, onde a calda se mantém em constante circulação nas tubulações e no reservatório.
                         </div>
                     </div>
-                    <button className={css.button}>Quero saber mais</button>
-                    </Col>
+                    <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>                    </Col>
 
                     </Slider>
                 </Row>
