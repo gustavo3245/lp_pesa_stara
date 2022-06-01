@@ -8,8 +8,8 @@ export default function Header (){
     return(
         <div className={css.bg}>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-            <Container className={css.header}>
-                <Row>
+            <div className={`${css.header} container-fluid`}>
+                <Row style={{alignItems: "center"}}>
                     <Col xs="6">
                     <Link href="/"><a><Image className={css.logo} src="/imgs/logo-pesastara.png" width={200} height={50} alt=""/></a></Link>
                     </Col>
@@ -26,7 +26,7 @@ export default function Header (){
                         </div>
                     </Col>
                 </Row>
-            </Container>
+            </div>
         </div>
     )
 }
