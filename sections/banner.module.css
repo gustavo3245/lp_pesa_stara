@@ -1,11 +1,14 @@
-.videobg{
-    height: 100vh;
-    border-bottom: #F26E20 solid 10px;
+.video{
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: -10px;
+    z-index: -1;
 }
 
 .bgGradient{
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
+    z-index: 9;
 }
 
 .colLogo{
@@ -27,15 +30,6 @@
 .link:hover{
     color: white;
 }
-
-.bgbanner{
-    background-image: url(../public/imgs/banner.jpg);
-    padding-top: 300px;
-    padding-bottom: 300px;
-    background-size: cover;
-    border-bottom: solid 15px #F26E20;
-}
-
 
 .icon{
     font-size: 80px;
@@ -67,3 +61,4 @@
         display: none;
     }
 }
+

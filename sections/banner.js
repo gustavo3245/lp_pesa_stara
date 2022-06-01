@@ -2,18 +2,15 @@ import { Row, Col, Container } from 'reactstrap'
 import css from './banner.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState, } from "react";
-import YoutubeBackground from 'react-youtube-background';
-import Link from 'next/link';
-import Image from 'next/image';
-
-const videoHeight = 100;
+import Link from "next/link"
+import Image from "next/image"
 
 export default function Banner() {
     
     return(
         <div>
-            <YoutubeBackground className={css.videobg} videoId='LIYupDbUJME'>
-                <Row className={css.bgGradient}>
+            <video className={css.video} src="/imgs/video.mp4" type="video/mp4" autoPlay muted loop>
+            <Row className={css.bgGradient}>
                     <Container>
                         <Row className='py-4'>
                             <Col className={css.colLogo} xs="6">
@@ -34,7 +31,7 @@ export default function Banner() {
                         </Row>
                     </Container>
                 </Row>
-            </YoutubeBackground>
+                </video>
         </div>
     )
 }

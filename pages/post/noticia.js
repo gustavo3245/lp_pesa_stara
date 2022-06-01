@@ -25,7 +25,7 @@ export default function Post(){
                     </Col>
 
                     <Col style={{textAlign: "end"}} md="6">
-                        <div className={css.text}><FaHome className={css.icon}/> <Link href="/"><a style={{color: "white", textDecoration: "none"}}>Página Inicial</a></Link> > Notícias</div>
+                        <div className={css.text}><FaHome className={css.icon}/> <Link href="/"><a style={{color: "white", textDecoration: "none"}}>Página Inicial</a></Link>  Notícias</div>
                     </Col>
                 </Row>
                 <div className={css.divider1}></div>
