@@ -50,7 +50,7 @@
 @media(max-width: 600px){
     .video{
         object-fit: contain;
-        height: 350px;
+        height: 300px;
         border-bottom: #F26E20 solid 10px;
     }
 
