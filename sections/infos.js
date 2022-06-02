@@ -20,7 +20,7 @@ export default function Infos (){
 
             <Container>
                 <Row className={css.row}>
-                    <Col md={4}>
+                    <Col md="4" xs="12">
                     <Image className={css.image} src="/imgs/icon-1.png" width={91} height={91} alt="icon"/>
                     <div className={css.title}>O agronegócio <br/> é</div>
                     <div>
@@ -29,7 +29,7 @@ export default function Infos (){
                     <div className={css.title2}>do PIB do Brasil*</div>
                     </Col>
 
-                    <Col md={4}>
+                    <Col md="4" xs="12">
                     <Image className={css.image} src="/imgs/icon-2.png" width={91} height={91} alt="icon"/>
                     <div className={css.title}>O agronegócio <br/>gerou</div>
                     <div>
@@ -39,7 +39,7 @@ export default function Infos (){
                     <div className={css.title2}>trilhão*</div>
                     </Col>
 
-                    <Col md={4}>
+                    <Col md="4" xs="12">
                     <Image className={css.image} src="/imgs/icon-3.png" width={91} height={91} alt="icon"/>
                     <div className={css.title}>O agronegócio<br/>teve um superavit de</div>
                     <div>
