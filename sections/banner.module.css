@@ -48,8 +48,9 @@
 
 
 @media(max-width: 600px){
-    .videobg{
-        height: 89vh;
+    .video{
+        object-fit: contain;
+        height: 214px;
         border-bottom: #F26E20 solid 10px;
     }
 
