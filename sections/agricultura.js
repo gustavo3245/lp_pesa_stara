@@ -196,9 +196,25 @@ export default function Agricultura() {
                         <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Mais homogeneidade nas aplicações com o exclusivo Sistema Recirculante Contínuo, onde a calda se mantém em constante circulação nas tubulações e no reservatório.
                         </div>
                     </div>
-                    <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>                    </Col>
+                    <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>
+                    </Col>
 
-                    <Col className={css.empty}>
+                    <Col className={css.column}>
+                    <Image className={css.img} src='/imgs/maquina-princesa.png' width={319} height={183}/>
+                    <div style={{marginTop: 0}} className={css.nameMachine}>Máquina<br/>Princesa</div>
+                    <div className={css.textmachine}>Precisão de aplicação excelente garantida pelas barras centrais.</div>
+                    <div className={css.borderCard}>
+                        <div className={css.textCard}>
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Modo de transporte com sistema de articulação com fechamento lateral;
+                        </div>
+                        <div className={css.textCard}>
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Maior economia de sementes e fertilizantes com o Desligamento Linha a Linha, Sistema Control e Taxa Variável;
+                        </div>
+                        <div className={css.textCard}>
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Equipada de fábrica com o melhor controlador do mercado, o Topper 5500.
+                        </div>
+                    </div>
+                    <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>
                     </Col>
                 </Row>
 
@@ -238,6 +254,23 @@ export default function Agricultura() {
                     </div>
                     <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>                    </Col>
 
+                    <Col className={css.column}>
+                    <Image className={css.img} src='/imgs/maquina-princesa.png' width={319} height={183}/>
+                    <div style={{marginTop: 0}} className={css.nameMachine}>Máquina<br/>Princesa</div>
+                    <div className={css.textmachine}>Precisão de aplicação excelente garantida pelas barras centrais.</div>
+                    <div className={css.borderCard}>
+                        <div className={css.textCard}>
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Modo de transporte com sistema de articulação com fechamento lateral;
+                        </div>
+                        <div className={css.textCard}>
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Maior economia de sementes e fertilizantes com o Desligamento Linha a Linha, Sistema Control e Taxa Variável;
+                        </div>
+                        <div className={css.textCard}>
+                        <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Equipada de fábrica com o melhor controlador do mercado, o Topper 5500.
+                        </div>
+                    </div>
+                    <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>
+                    </Col>
                     </Slider>
                 </Row>
             </Container>
