@@ -51,6 +51,7 @@
     .video{
         object-fit: cover;
         height: 210px;
+        width: 100%;
         border-bottom: #F26E20 solid 10px;
     }
 
