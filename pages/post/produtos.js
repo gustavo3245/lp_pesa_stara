@@ -2,6 +2,7 @@ import css from "./produtos.module.css"
 import {Row, Col, Container} from "reactstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Produtos(){
     return(
@@ -21,9 +22,9 @@ export default function Produtos(){
                         <div className={css.nomeMaquina}>
                             Princesa
                         </div>
-                        <div className={css.btnSaiba}>
+                        <Link href="/#contato"><a className={css.link}><div className={css.btnSaiba}>
                             saiba mais
-                        </div>
+                        </div></a></Link>
                     </Col>
 
                     <Col className={css.card}>
@@ -34,9 +35,9 @@ export default function Produtos(){
                         <div className={css.nomeMaquina}>
                             Imperador 3.000
                         </div>
-                        <div className={css.btnSaiba}>
+                        <Link href="/#contato"><a className={css.link}><div className={css.btnSaiba}>
                             saiba mais
-                        </div>
+                        </div></a></Link>
                     </Col>
 
                     <Col></Col>

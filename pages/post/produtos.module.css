@@ -7,6 +7,10 @@
     margin-top: 28px;
 }
 
+.link{
+    text-decoration: none;
+}
+
 .divider{
     height: 3px;
     background-color: #238e25;
