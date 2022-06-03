@@ -184,7 +184,7 @@ export default function Agricultura() {
                     <Col className={css.column}>
                     <Image className={css.img} src='/imgs/princesa.png' width={319} height={183}/>
                     <div  className={css.nameMachine}>Princesa</div>
-                    <div className={css.textmachine}>Articulada, compacta e leve.</div>
+                    <div className={css.textmachine}>Articulada, compacta e leve.<br/><br/></div>
                     <div className={css.borderCard}>
                         <div className={css.textCard}>
                         <BsCheckCircleFill className={css.icon} style={{marginLeft: -32, marginRight: 10}}/>Modo de transporte com sistema de articulação com fechamento lateral;
