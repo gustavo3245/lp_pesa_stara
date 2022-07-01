@@ -26,7 +26,7 @@ export default function Sessao1() {
                 <div className={css.divider1}></div>
                 <div className={css.divider2}></div>
                 <Row className='py-5'>
-                    <Col>
+                    <Col sm="12">
                         <div>
                             <Image className={css.image} src="/imgs/post-1.png" width={503} height={417} alt="post"/>
                         </div>

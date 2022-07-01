@@ -25,7 +25,8 @@ export default function Agricultura() {
                     slidesToShow: 3,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: true
+                    dots: true,
+                    arrows: false,
                 }
             },
             {
@@ -33,14 +34,16 @@ export default function Agricultura() {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 2,
-                    initialSlide: 1
+                    initialSlide: 1,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    arrows: false,
                 }
             }
         ]
@@ -109,7 +112,7 @@ export default function Agricultura() {
                 <Row className={css.mobile}>
                     <Slider {...settings}>
                     <Col className={css.column}>
-                    <Image className={css.img} src='/imgs/maquina-1.png' width={319} height={183}/>
+                    <img className={css.img} src='/imgs/maquina-1.png' width="100%"/>
                     <div className={css.nameMachine}>Imperador 2000</div>
                     <div className={css.textmachine}>Pulverizador e semeador pneumático num único equipamento.</div>
                     <div className={css.borderCard}>
@@ -126,7 +129,7 @@ export default function Agricultura() {
                     <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>                    </Col>
 
                     <Col className={css.column}>
-                    <Image className={css.img} src='/imgs/maquina-2.png' width={319} height={183}/>
+                    <img className={css.img} src='/imgs/maquina-2.png' width="100%"/>
                     <div style={{marginTop: 0}} className={css.nameMachine}>Imperador<br/>3000 e 4000</div>
                     <div className={css.textmachine}>Precisão de aplicação excelente garantida pelas barras centrais.</div>
                     <div className={css.borderCard}>
@@ -143,7 +146,7 @@ export default function Agricultura() {
                     <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>                    </Col>
 
                     <Col className={css.column}>
-                    <Image className={css.img} src='/imgs/maquina-3.png' width={319} height={183}/>
+                    <img className={css.img} src='/imgs/maquina-3.png' width="100%"/>
                     <div className={css.nameMachine}>Imperador 3.0</div>
                     <div className={css.textmachine}>O único autopropelido 3 em 1 do mundo.</div>
                     <div className={css.borderCard}>
@@ -165,7 +168,7 @@ export default function Agricultura() {
 
                 <Row className={css.margin}>
                     <Col className={css.column}>
-                    <Image className={css.img} src='/imgs/cinderela.png' width={319} height={183}/>
+                    <img className={css.img} src='/imgs/cinderela.png' width="100%"/>
                     <div className={css.nameMachine}>Cinderela</div>
                     <div className={css.textmachine}>Homogeneidade do plantio mesmo em terrenos irregulares.</div>
                     <div className={css.borderCard}>
@@ -182,7 +185,7 @@ export default function Agricultura() {
                     <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>                    </Col>
 
                     <Col className={css.column}>
-                    <Image className={css.img} src='/imgs/princesa.png' width={319} height={183}/>
+                    <img className={css.img} src='/imgs/princesa.png' width="100%"/>
                     <div  className={css.nameMachine}>Princesa</div>
                     <div className={css.textmachine}>Articulada, compacta e leve.<br/><br/></div>
                     <div className={css.borderCard}>
@@ -207,7 +210,7 @@ export default function Agricultura() {
                 <Row className={css.mobile}>
                     <Slider {...settings}>
                     <Col className={css.column}>
-                    <Image className={css.img} src='/imgs/cinderela.png' width={319} height={183}/>
+                    <img className={css.img} src='/imgs/cinderela.png' width="100%"/>
                     <div className={css.nameMachine}>Cinderela</div>
                     <div className={css.textmachine}>Homogeneidade do plantio mesmo em terrenos irregulares.</div>
                     <div className={css.borderCard}>
@@ -224,7 +227,7 @@ export default function Agricultura() {
                     <Link href="#contato"><a><button className={css.button}>Quero saber mais</button></a></Link>                    </Col>
 
                     <Col className={css.column}>
-                    <Image className={css.img} src='/imgs/princesa.png' width={319} height={183}/>
+                    <img className={css.img} src='/imgs/princesa.png' width="100%"/>
                     <div style={{marginTop: 0}} className={css.nameMachine}>Princesa<br/></div>
                     <div className={css.textmachine}>Articulada, compacta e leve.</div>
                     <div className={css.borderCard}>

@@ -25,7 +25,8 @@ export default function Relacionadas(){
                     slidesToShow: 3,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: true
+                    dots: true,
+                    arrows: false,
                 }
             },
             {
@@ -33,14 +34,16 @@ export default function Relacionadas(){
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 2,
-                    initialSlide: 1
+                    initialSlide: 1,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    arrows: false,
                 }
             }
         ]

@@ -23,7 +23,8 @@ const settings = {
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                dots: true,
+                arrows: false,
             }
         },
         {
@@ -31,7 +32,8 @@ const settings = {
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                initialSlide: 1
+                initialSlide: 1,
+                arrows: false,
             }
         },
         {
@@ -40,6 +42,7 @@ const settings = {
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 variableWidth: true,
+                arrows: false,
             }
         }
     ]
